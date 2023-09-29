@@ -93,3 +93,6 @@ print(f'Servings of:')
 for variable in prob_rev.variables():
     print(f'  - {variable.name} = {round(variable.varValue, 2)}')
 print(f'Minimized Cost: {round(value(prob_rev.objective), 2)}')
+
+# testing git connection
+print('this was committed to git')
